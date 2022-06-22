@@ -1,2 +1,2 @@
 #!/bin/bash
-tar cz PPTS_Records_data.csv | split -b 25MiB - PPTS_Records_data.tgz_
+cat PPTS_Records_data.tgz_* | tar xz
